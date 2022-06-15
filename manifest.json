@@ -2,7 +2,7 @@
   "version": 1,
   "locale": "en_US.UTF-8",
   "metadata": {
-    "appmode": "python-api",
+    "appmode": "python-dash",
     "entrypoint": "app"
   },
   "python": {
@@ -15,7 +15,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "3cca17d03c6108d8750fb6e99b2479f0"
+      "checksum": "47b0ab53db515804e75d93f7c85e5d45"
     },
     ".DS_Store": {
       "checksum": "3669215417e64340d1e1265541d27e53"
