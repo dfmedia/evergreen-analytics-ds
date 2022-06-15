@@ -53,7 +53,7 @@ div_style = {'float': 'left',
 
 
 server = Flask(__name__)
-app = dash.Flask(__name__, server=server, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, server=server, external_stylesheets=external_stylesheets)
 
 df = pd.read_csv('two_weeks_merged.csv')
 
